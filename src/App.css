@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.text-box {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+}

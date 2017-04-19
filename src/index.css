@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #003a21;
+  /*background: url("http://i.ebayimg.com/images/g/wLcAAOSw3utY8jNS/s-l500.jpg");*/
+  /*background-image: url("https://s-media-cache-ak0.pinimg.com/564x/1f/df/05/1fdf05891b09dc8df19cec7962105d97.jpg");*/
+  background-image: url("../public/woodDetail.jpg");
+  /*background-image: url("../public/lightBackgroundHorizontal.png");*/
+  /*background-image: url("../public/darkBackground.png");*/
+  /*background-image: url("https://www.thefabricco.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/n/u/nuw2187.jpg");*/
+}
