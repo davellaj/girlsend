@@ -10,3 +10,18 @@ body {
   /*background-image: url("../public/darkBackground.png");*/
   /*background-image: url("https://www.thefabricco.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/n/u/nuw2187.jpg");*/
 }
+
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.text-box {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+}
