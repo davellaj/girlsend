@@ -5,23 +5,36 @@ body {
   color: #003a21;
   /*background: url("http://i.ebayimg.com/images/g/wLcAAOSw3utY8jNS/s-l500.jpg");*/
   /*background-image: url("https://s-media-cache-ak0.pinimg.com/564x/1f/df/05/1fdf05891b09dc8df19cec7962105d97.jpg");*/
-  background-image: url("../public/woodDetail.jpg");
+  /*background-image: url("../public/woodDetail.jpg");*/
   /*background-image: url("../public/lightBackgroundHorizontal.png");*/
   /*background-image: url("../public/darkBackground.png");*/
   /*background-image: url("https://www.thefabricco.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/n/u/nuw2187.jpg");*/
 }
 
-.App {
-  text-align: center;
+.header-container {
+  background: url("../public/woodDetail.jpg");
+  height: 750px;
+  display: flex;
+  justify-content: center;
+}
+.header-image-conainer {
+  width: 50%;
+  border: 1px solid red;
+
 }
 
-.App-intro {
-  font-size: large;
+.header-image {
+  width: 350px;
+  height: 220px;
 }
 
-.text-box {
-  width: 80%;
-  height: 500px;
-  margin: auto;
-  background-color: white;
+.header-image img {
+  width: 100%;
+  height: auto;
+}
+
+.header-text-conainer {
+  width: 50%;
+  border: 1px solid green;
+
 }
