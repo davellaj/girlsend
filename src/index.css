@@ -11,30 +11,48 @@ body {
   /*background-image: url("https://www.thefabricco.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/n/u/nuw2187.jpg");*/
 }
 
+/*.header-background {
+
+}*/
 .header-container {
   background: url("../public/woodDetail.jpg");
-  height: 750px;
+  height: 550px;
+  width: 100%;
+}
+.header-background {
+  width: 100%;
+}
+.nav-bar {
+  width: 100%;
+}
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+.nav-bar li {
+  padding: 20px 10px 20px 10px;
+}
+.header-content {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.header-image-conainer {
-  width: 50%;
-  border: 1px solid red;
-
-}
-
 .header-image {
-  width: 350px;
-  height: 220px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  padding-right: 30px;
 }
-
 .header-image img {
   width: 100%;
   height: auto;
 }
 
-.header-text-conainer {
-  width: 50%;
-  border: 1px solid green;
+.header-text-container {
+  padding-left: 30px;
+  font-size: 20px;
+  width: 30%;
 
 }
